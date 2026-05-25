@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": "welcome",
+      "title": "Welcome to My Research Blog",
+      "date": "May 23, 2026",
+      "tags": ["announcement", "personal"],
+      "excerpt": "Welcome to my personal website and research blog. I'm a PhD Candidate in Biomedical Informatics at Vanderbilt University, and I'll be using this space to share updates on my research, thoughts on topics in AI and healthcare, and reflections on the PhD journey.",
+      "url": "blog/welcome.html",
+      "content": "<p>Welcome to my personal website and research blog. I'm a PhD Candidate in Biomedical Informatics at Vanderbilt University, and I'll be using this space to share updates on my research, thoughts on topics in AI and healthcare, and reflections on the PhD journey.</p><p>My research focuses on three main areas: <strong>synthetic data generation</strong> for privacy-preserving medical datasets, <strong>federated learning</strong> for collaborative clinical prediction across institutions, and <strong>algorithmic fairness</strong> in medical AI.</p><p>I'm excited to have a space where I can write about ongoing projects, share lessons learned, and engage with the broader research community. Check back for new posts!</p>"
+    }
+  ]
+}

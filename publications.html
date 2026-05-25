@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research & Publications — Nicholas Jackson, 3rd Year PhD Student in Biomedical Informatics at Vanderbilt University">
+  <title>Research & Publications | Nicholas Jackson</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>NJ</text></svg>">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Nicholas Jackson</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Research</a>
+        <a href="cv/index.html">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="page-header">
+        <h1>Research & Publications</h1>
+        <p>My research has had three main directions: privacy-preserving data-sharing, generalizable AI for healthcare, and human-AI interaction. My dissertation work will focus on the intersection of the first two.</p>
+      </div>
+
+      <!-- Research Directions -->
+      <section class="section">
+        <h2>Research Directions</h2>
+        <div class="direction-grid">
+          <div class="direction-card dir-privacy">
+            <div class="dir-icon">🔒</div>
+            <h3>Privacy-Preserving Data Sharing</h3>
+            <!--
+            <p>
+              Developing generative AI methods to create high-quality synthetic medical data that preserves privacy while maintaining utility. This includes multi-modal synthetic datasets (AI-READI), reinforcement learning approaches to generation, and privacy-preserving federated learning across international cohorts for HIV research.
+            </p>
+            -->
+            <p>
+              Developing generative AI methods to create high-quality synthetic medical data that preserves privacy while maintaining key scientific properties and utility for AI training.  
+            </p>
+          </div>
+          <div class="direction-card dir-fairness">
+            <div class="dir-icon">⚖️</div>
+            <h3>Algorithmic Fairness / Generalizability</h3>
+            <!-- 
+            <p>
+              Investigating methods to mitigate bias and ensure equitable performance of medical AI across demographic groups. Research includes synthetic data for fairness in chest X-ray classification, characterizing learnability in algorithmic fairness, and evaluating model sensitivity to data heterogeneity in multi-site studies.
+            </p>
+             -->
+            <p>
+              Investigating methods to mitigate bias and ensure generalizability of medical AI across populations.
+            </p>
+          </div>
+          <div class="direction-card dir-hai">
+            <div class="dir-icon">🤝</div>
+            <h3>Human-AI Interaction</h3>
+            <p>
+              Studying how AI systems interact with and support human decision-making in clinical contexts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filtered Publications & Presentations -->
+      <section class="section">
+        <h2>Publications & Presentations</h2>
+
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn filter-privacy" data-filter="privacy">🔒 Privacy</button>
+          <button class="filter-btn filter-fairness" data-filter="fairness">⚖️ Fairness / Generalizability</button>
+          <button class="filter-btn filter-hai" data-filter="hai">🤝 Human-AI</button>
+          <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+
+        <!-- Papers -->
+        <h3 style="font-family: 'Georgia', serif; color: #1A1A2E; margin-bottom: 16px;">Papers</h3>
+
+        <div class="publication" data-topic="hai">
+          <div class="pub-title"><a href="https://doi.org/10.1093/jamia/ocag002" target="_blank" rel="noopener">Factors Influencing the Effectiveness of AI-Assisted Decision-Making in Medicine: A Scoping Review</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Brown KE, Miller R, et al.</div>
+          <div class="pub-journal">J Am Med Inform Assoc. 2026;00(00):1-13.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-hai">🤝 Human-AI</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="hai">
+          <div class="pub-title"><a href="https://doi.org/10.1093/jamia/ocaf235" target="_blank" rel="noopener">Auditor models to suppress poor artificial intelligence predictions can improve human-artificial intelligence collaborative performance</a></div>
+          <div class="pub-authors">Brown KE, Wrenn JO, <strong>Jackson NJ</strong>, et al.</div>
+          <div class="pub-journal">J Am Med Inform Assoc. 2026;ocaf235.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-hai">🤝 Human-AI</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="hai">
+          <div class="pub-title"><a href="https://doi.org/10.1001/jamanetworkopen.2025.50449" target="_blank" rel="noopener">Large Language Models and Communication of Medical Probabilities</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Andreadis K, Ancker JS.</div>
+          <div class="pub-journal">JAMA Netw Open. 2025;8(12):e2550449.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-hai">🤝 Human-AI</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="fairness">
+          <div class="pub-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12099404/" target="_blank" rel="noopener">Enhancement of Fairness in AI for Chest X-ray Classification</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Yan C, Malin BA.</div>
+          <div class="pub-journal">AMIA Annu Symp Proc AMIA Symp. 2024;2024:551-560.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-fairness">⚖️ Fairness</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="hai">
+          <div class="pub-title"><a href="https://doi.org/10.18653/v1/2025.emnlp-main.576" target="_blank" rel="noopener">Towards Statistical Factuality Guarantee for Large Vision-Language Models</a></div>
+          <div class="pub-authors">Li Z, Yan C, <strong>Jackson NJ</strong>, et al.</div>
+          <div class="pub-journal">Proceedings of EMNLP 2025:11446-11467.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-hai">🤝 Human-AI</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="other">
+          <div class="pub-title"><a href="https://doi.org/10.1177/10711007231221991" target="_blank" rel="noopener">Image Rotation Alters Apparent Fibula Length: An Evaluation of Talocrural Angle, Shenton Line, and Dime Sign</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Root KT, Nichols JA, Reb CW.</div>
+          <div class="pub-journal">Foot Ankle Int. 2024;45(3):236-242.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-other">Other</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="other">
+          <div class="pub-title"><a href="https://doi.org/10.1177/19386400231213741" target="_blank" rel="noopener">The Center-Center Image Closely Approximates Other Methods for Syndesmosis Reduction Clamp Placement</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Flores K, Blake A, Harley JB, Reb CW, Nichols JA.</div>
+          <div class="pub-journal">Foot Ankle Spec. 2023;19386400231213741.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-other">Other</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="privacy">
+          <div class="pub-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13015641/" target="_blank" rel="noopener">Reward-Guided Generation Improves the Scientific Utility of Synthetic Biomedical Data</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, et al.</div>
+          <div class="pub-journal">Accepted to AMIA 2026 Annual Symposium.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="privacy">
+          <div class="pub-title">A Synthetic Multi-modal Dataset for Type 2 Diabetes</div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Natalia ED, Yan C, et al.</div>
+          <div class="pub-journal">(In Review). 2026.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag in-review">In Review</span></div>
+        </div>
+
+        <div class="publication" data-topic="privacy fairness">
+          <div class="pub-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13042089/" target="_blank" rel="noopener">Federated Learning Performance Depends on Site Variation in Global HIV Data Consortia</a></div>
+          <div class="pub-authors"><strong>Jackson NJ</strong>, Yan C, Caro-Vega YN, et al.</div>
+          <div class="pub-journal">(In Review). 2026. Preprint available.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag direction dir-fairness">⚖️ Fairness</span><span class="pub-tag in-review">In Review</span></div>
+        </div>
+
+        <div class="publication" data-topic="fairness">
+          <div class="pub-title">The Overlooked Role of Learnability in Building Algorithmically Fair Biomedical Datasets</div>
+          <div class="pub-authors">Borza VA, <strong>Jackson NJ</strong>, Estornell A, et al.</div>
+          <div class="pub-journal">(In Review). 2026.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-fairness">⚖️ Fairness</span><span class="pub-tag in-review">In Review</span></div>
+        </div>
+
+        <div class="publication" data-topic="privacy">
+          <div class="pub-title"><a href="https://doi.org/10.48550/arXiv.2512.21395" target="_blank" rel="noopener">A Reinforcement Learning Approach to Synthetic Data Generation</a></div>
+          <div class="pub-authors">Espinosa-Dice N, <strong>Jackson NJ</strong>, Yan C, Lee A, Malin BA.</div>
+          <div class="pub-journal">(In Review). 2026. Preprint: arXiv:2512.21395.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag in-review">In Review</span></div>
+        </div>
+
+        <div class="publication" data-topic="privacy">
+          <div class="pub-title"><a href="https://doi.org/10.1101/2025.11.14.25340245" target="_blank" rel="noopener">Generating Synthetic Multi-national Longitudinal Cohorts for Clinically Grounded HIV Research</a></div>
+          <div class="pub-authors">Liang ZJ, Li Z, <strong>Jackson NJ</strong>, et al.</div>
+          <div class="pub-journal">Nat Commun. (In Press). 2026.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag in-press">In Press</span><span class="pub-tag accepted">Accepted</span></div>
+        </div>
+
+        <div class="publication" data-topic="other">
+          <div class="pub-title">Automated Identification of the Center-Center Axis via Deep Learning</div>
+          <div class="pub-authors"><strong>Jackson NJ</strong></div>
+          <div class="pub-journal">Undergraduate Honors Thesis, University of Florida. 2023.</div>
+          <div class="pub-tags"><span class="pub-tag direction dir-other">Other</span><span class="pub-tag thesis">Thesis</span></div>
+        </div>
+
+        <!-- Conference Presentations -->
+        <h3 style="font-family: 'Georgia', serif; color: #1A1A2E; margin: 32px 0 16px;">Conference Presentations</h3>
+
+        <div class="presentation" data-topic="hai">
+          <div class="pres-title"><span class="pres-type">Oral</span>&lsquo;Just Give me a Number&rsquo;: Comparing Human and Large Language Model Interpretations of Verbal Probability Terms in Healthcare Communication</div>
+          <div class="pres-meta">AMIA Annual Meeting. November 2025; Atlanta, GA.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-hai">🤝 Human-AI</span></div>
+        </div>
+
+        <div class="presentation" data-topic="privacy fairness">
+          <div class="pres-title"><span class="pres-type">Oral</span>Federated Learning Improves the Performance of Clinical Prediction Models for HIV Mortality</div>
+          <div class="pres-meta">IWHOD Annual Meeting. March 2025; Toledo, Spain.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-privacy">🔒 Privacy</span><span class="pub-tag direction dir-fairness">⚖️ Fairness</span></div>
+        </div>
+
+        <div class="presentation" data-topic="fairness">
+          <div class="pres-title"><span class="pres-type">Oral</span>Enhancement of Fairness in AI for Chest X-ray Classification</div>
+          <div class="pres-meta">AMIA Annual Meeting. November 2024; San Francisco, CA.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-fairness">⚖️ Fairness</span></div>
+        </div>
+
+        <div class="presentation" data-topic="other">
+          <div class="pres-title"><span class="pres-type">Poster</span>A 3D Image-Based Comparison of the Center-Center and Transyndesmotic Axis Methods for Patient-Specific Fixation of the Ankle Syndesmosis</div>
+          <div class="pres-meta">ORS Annual Meeting. 2022.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-other">Other</span></div>
+        </div>
+
+        <div class="presentation" data-topic="other">
+          <div class="pres-title"><span class="pres-type">Poster</span>A Computational Comparison of Center-Center and Centroid Axes in Syndesmosis Fixation</div>
+          <div class="pres-meta">ORS Annual Meeting. Virtual. 2021.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-other">Other</span></div>
+        </div>
+
+        <div class="presentation" data-topic="other">
+          <div class="pres-title"><span class="pres-type">Poster</span>Analysis of Actigraphy Data for Classifying Delirium in the ICU</div>
+          <div class="pres-meta">BMES Annual Meeting. 2019.</div>
+          <div class="pub-tags" style="margin-top: 4px;"><span class="pub-tag direction dir-other">Other</span></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 Nicholas Jackson · Vanderbilt University</p>
+      <p>
+        <a href="mailto:nicholas.jackson@vanderbilt.edu">nicholas.jackson@vanderbilt.edu</a>
+        ·
+        <a href="https://github.com/nicholas-j-jackson" target="_blank" rel="noopener">GitHub</a>
+        ·
+        <a href="https://www.linkedin.com/in/nicholas-jackson-b7a621195/" target="_blank" rel="noopener">LinkedIn</a>
+        ·
+        <a href="https://scholar.google.com/citations?user=ve19UQsAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener">Google Scholar</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/filter.js"></script>
+</body>
+</html>
